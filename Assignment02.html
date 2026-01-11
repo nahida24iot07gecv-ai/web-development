@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook – Create Account</title>
+    <style>
+        . {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: #c7d4e7;
+}
+
+.logo {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1877f2;
+    margin: 30px 0;
+
+}
+
+.container {
+    width: 430px;
+    background: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.sub-text {
+    text-align: center;
+    color: #606770;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+hr {
+    
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.full {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 12px;
+    color: #606770;
+    margin-top: 10px;
+    display: block;
+}
+
+.gender .box {
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.info {
+    font-size: 11px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.info a {
+    color: #385898;
+    text-decoration: none;
+}
+
+button {
+    width: 200px;
+    background: #00a400;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+}
+
+.login {
+    text-align: center;
+    display: block;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="logo">facebook</div>
+
+    <div class="container">
+        <h2>Create a new account</h2>
+        <p class="sub-text">It's quick and easy.</p>
+        <hr>
+
+        <div class="row">
+            <input type="text" value="" placeholder="First name" >
+            <input type="text" value="" placeholder="Surname">
+        </div>
+
+        <label >Date of birth ?</label>
+        <div class="row">
+            <select>
+                <option>8</option>
+            </select>
+            <select>
+                <option>Jan</option>
+            </select>
+            <select>
+                <option>2026</option>
+            </select>
+        </div>
+
+        <label>Gender ?</label>
+        <div class="row gender">
+            <label class="box">
+                
+                Female <input type="radio" name="gender">
+                
+                
+            </label>
+            <label class="box">
+                Male <input type="radio" name="gender">
+            </label>
+            <label class="box">
+                Custom <input type="radio" name="gender">
+            </label>
+        </div>
+
+        <input type="text" class="full" placeholder="Mobile number or email address">
+        <input type="password" class="full" placeholder="New password">
+
+        <p class="info">
+            People who use our service may have uploaded your contact information to Facebook.
+            <a href="#">Learn more.</a>
+        </p>
+
+        <p class="info">
+            By clicking Sign Up, you agree to our
+            <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and
+            <a href="#">Cookies Policy</a>.
+        </p>
+
+        <button>Sign Up</button>
+
+        <a class="login" href="#">Already have an account?</a>
+    </div>
+
+</body>
+</html>
