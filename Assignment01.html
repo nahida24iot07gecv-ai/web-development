@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    
+    <style>
+        /* Internal CSS Starts Here */
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background-color: #c0c4cf;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            width: 980px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Left Side: Text and Logo */
+        .left-content {
+            width: 500px;
+            width: 500px;
+            padding-bottom: 80px;
+        }
+
+        .left-content h1 {
+            color: #1877f2;
+            font-size: 60px;
+            margin: 0;
+            letter-spacing: -2px;
+        }
+
+        .left-content p {
+            font-size: 28px;
+            line-height: 32px;
+            margin-top: 0;
+            font-weight: normal;
+        }
+
+        /* Right Side: Login Form */
+        .right-content {
+            width: 400px;
+            text-align: center;
+        }
+
+        .login-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            width: 100%;
+            padding: 14px 16px;
+            margin-bottom: 12px;
+            border: 2px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 17px;
+            box-sizing: border-box; /* Padding ko width ke andar rakhne ke liye */
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #1877f2;
+            box-shadow: 0 0 0 2px #e7f3ff;
+        }
+
+        .login-btn {
+            width: 100%;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .forgot-link {
+            display: block;
+            margin: 15px 0;
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .forgot-link:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: 0.5px solid #dadde1;
+            margin: 20px 0;
+        }
+
+        .create-btn {
+            background-color: #42b72a;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 12px 16px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .footer-text {
+            margin-top: 28px;
+            font-size: 14px;
+        }
+
+        .footer-text b {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-content">
+            <h1>facebook</h1>
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+
+        <div class="right-content">
+            <div class="login-box">
+                <input type="text" placeholder="Email address or phone number">
+                <input type="password" placeholder="Password">
+                <button class="login-btn">Log in</button>
+                <a href="#" class="forgot-link">Forgotten password?</a>
+                <hr>
+                <button class="create-btn">Create new account</button>
+            </div>
+            <p class="footer-text"><b>Create a Page</b> for a celebrity, brand or business.</p>
+        </div>
+    </div>
+
+</body>
+</html>
+    …
