@@ -54,11 +54,11 @@ if (isset($_POST['register'])) {
     <div class="container">
         <a class="navbar-brand fw-bold" href="../index.php">Smart Health</a>
         <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="../index.php">Home</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#">Register</a></li>
-            <li class="nav-item"><a class="nav-link" href="../login.php">Login</a></li>
-            <li class="nav-item"><a class="nav-link" href="../doctor/doctors.php">Doctors</a></li>
-            <li class="nav-item"><a class="nav-link" href="../contact.php">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="Home.php">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="Register.php">Register</a></li>
+            <li class="nav-item"><a class="nav-link" href="Login.php">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="doctor/doctors.php">Doctors</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -104,4 +104,5 @@ if (isset($_POST['register'])) {
 </footer>
 
 </body>
+
 </html>
