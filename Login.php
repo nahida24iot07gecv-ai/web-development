@@ -83,9 +83,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <a class="navbar-brand" href="#">Smart Health</a>
             <div class="ms-auto">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link " href="../index.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="../register.php">Register</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="nav-link " href="Home.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Register.php">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="Login.php">Login</a></li>
                 <li class="nav-item"><a class="nav-link" href="../doctor/doctors.php">Doctors</a></li>
                 <li class="nav-item"><a class="nav-link" href="../contact.php">Contact</a></li>
                 </ul>
@@ -117,4 +117,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
